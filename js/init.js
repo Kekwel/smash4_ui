@@ -14,7 +14,7 @@ function initPerso() {
 function generateDivPerso(perso) {
     console.log(perso);
     var divPerso = '<div class="perso">';
-    divPerso += '<img src="img/perso/' + perso.name.replace(/\s+/g, '_') + '.png' + '" alt="' + perso.name + '">';
+    divPerso += '<img src="img/perso/' + perso.name.replace(/\s+/g, '_').toLowerCase() + '.png' + '" alt="' + perso.name + '">';
     divPerso += '<p class="name">' + perso.name + '</p>';
     return divPerso + '</div>'
 }
