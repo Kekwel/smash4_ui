@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'dfggothic-suregular';
+    /*IE*/
+    src: url('../fonts/ie/dfgothic-su-wing-rksj-h-webfont.eot');
+    /*Non-IE*/
+    src: url('../fonts/dfgothic-su-wing-rksj-h-webfont.Ttf') format('truetype');
+}
+
+#roaster {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.perso {
+    flex-grow: 1;
+    width: 200px;
+    max-width: 200px;
+    height: 130px;
+    border: 1px solid green;
+}
+
+.perso img {
+    display: block;
+    margin: 0;
+}
+
+.perso .name {
+    background: black;
+    font-family: 'dfggothic-suregular';
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    text-align: center;
+}

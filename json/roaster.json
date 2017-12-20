@@ -1,0 +1,110 @@
+roaster = [{
+    "name": "Mario",
+    "img": "img/perso/mario.png"
+}, {
+    "name": "Luigi",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Peach",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Bowser",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Yoshi",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Harmonie & Luma",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Bowser Jr.",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Wario",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Donkey Kong",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Diddy Kong",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Mr. Game & Watch",
+    "img": "img/perso/luigi.png"
+}, {
+    "name": "Little Mac",
+    "img": "img/perso/luigi.png"
+}]
+/* roaster = [{
+    "name": "Mario",
+    "img": "img/perso/mario.png"
+}, {
+    "name": "Luigi",
+    "img": ""
+}, {
+    "name": "Peach",
+    "img": ""
+}, {
+    "name": "Bowser",
+    "img": ""
+}, {
+    "name": "Yoshi",
+    "img": ""
+}, {
+    "name": "Harmonie & Luma",
+    "img": ""
+}, {
+    "name": "Bowser Jr.",
+    "img": ""
+}, {
+    "name": "Wario",
+    "img": ""
+}, {
+    "name": "Donkey Kong",
+    "img": ""
+}, {
+    "name": "Diddy Kong",
+    "img": ""
+}, {
+    "name": "Mr. Game & Watch",
+    "img": ""
+}, {
+    "name": "Little Mac",
+    "img": ""
+}, {
+    "name": "Link",
+    "img": ""
+}, {
+    "name": "Zelda",
+    "img": ""
+}, {
+    "name": "Sheik",
+    "img": ""
+}, {
+    "name": "Ganondorf",
+    "img": ""
+}, {
+    "name": "Link Cartoon",
+    "img": ""
+}, {
+    "name": "Samus",
+    "img": ""
+}, {
+    "name": "Samus Sans Armure",
+    "img": ""
+}, {
+    "name": "Pit",
+    "img": ""
+}, {
+    "name": "Palutena",
+    "img": ""
+}, {
+    "name": "Marth",
+    "img": ""
+}, {
+    "name": "Ike",
+    "img": ""
+}, {
+    "name": "Robin",
+    "img": ""
+}]; */
