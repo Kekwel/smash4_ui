@@ -3,7 +3,7 @@
     /*IE*/
     src: url('../fonts/ie/dfgothic-su-wing-rksj-h-webfont.eot');
     /*Non-IE*/
-    src: url('../fonts/dfgothic-su-wing-rksj-h-webfont.Ttf') format('truetype');
+    src: url('../fonts/dfgothic-su-wing-rksj-h-webfont.ttf') format('truetype');
 }
 
 #roaster {
