@@ -1,110 +1,115 @@
 roaster = [{
     "name": "Mario",
-    "img": "img/perso/mario.png"
 }, {
     "name": "Luigi",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Peach",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Bowser",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Yoshi",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Harmonie & Luma",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Bowser Jr.",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Wario",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Donkey Kong",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Diddy Kong",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Mr. Game & Watch",
-    "img": "img/perso/luigi.png"
 }, {
     "name": "Little Mac",
-    "img": "img/perso/luigi.png"
-}]
-/* roaster = [{
-    "name": "Mario",
-    "img": "img/perso/mario.png"
-}, {
-    "name": "Luigi",
-    "img": ""
-}, {
-    "name": "Peach",
-    "img": ""
-}, {
-    "name": "Bowser",
-    "img": ""
-}, {
-    "name": "Yoshi",
-    "img": ""
-}, {
-    "name": "Harmonie & Luma",
-    "img": ""
-}, {
-    "name": "Bowser Jr.",
-    "img": ""
-}, {
-    "name": "Wario",
-    "img": ""
-}, {
-    "name": "Donkey Kong",
-    "img": ""
-}, {
-    "name": "Diddy Kong",
-    "img": ""
-}, {
-    "name": "Mr. Game & Watch",
-    "img": ""
-}, {
-    "name": "Little Mac",
-    "img": ""
 }, {
     "name": "Link",
-    "img": ""
 }, {
     "name": "Zelda",
-    "img": ""
 }, {
     "name": "Sheik",
-    "img": ""
 }, {
     "name": "Ganondorf",
-    "img": ""
 }, {
     "name": "Link Cartoon",
-    "img": ""
 }, {
     "name": "Samus",
-    "img": ""
 }, {
-    "name": "Samus Sans Armure",
-    "img": ""
+    "name": "Samus sans armure",
 }, {
     "name": "Pit",
-    "img": ""
 }, {
     "name": "Palutena",
-    "img": ""
 }, {
     "name": "Marth",
-    "img": ""
 }, {
     "name": "Ike",
-    "img": ""
 }, {
-    "name": "Robin",
-    "img": ""
-}]; */
+    "name": "Darren",
+}, {
+    "name": "Duo Duck Hunt",
+}, {
+    "name": "Kirby",
+}, {
+    "name": "Roi Dadidou",
+}, {
+    "name": "Meta Knight",
+}, {
+    "name": "Fox",
+}, {
+    "name": "Falco",
+}, {
+    "name": "Pikachu",
+}, {
+    "name": "Dracaufeu",
+}, {
+    "name": "Lucario",
+}, {
+    "name": "Rondoudou",
+}, {
+    "name": "Amphinobi",
+}, {
+    "name": "R.O.B.",
+}, {
+    "name": "Ness",
+}, {
+    "name": "Captain Falcon",
+}, {
+    "name": "Villageois",
+}, {
+    "name": "Olimar",
+}, {
+    "name": "Wii Fit Trainer",
+}, {
+    "name": "Shulk",
+}, {
+    "name": "Dr. Mario",
+}, {
+    "name": "Dark Pit",
+}, {
+    "name": "Lucina",
+}, {
+    "name": "PAC-MAN",
+}, {
+    "name": "Mega man",
+}, {
+    "name": "Sonic",
+}, {
+    "name": "Mewtwo",
+}, {
+    "name": "Lucas",
+}, {
+    "name": "Roy",
+}, {
+    "name": "Ryu",
+}, {
+    "name": "Cloud",
+}, {
+    "name": "Corrin",
+}, {
+    "name": "Bayonetta",
+}, {
+    "name": "Mii",
+}, {
+    "name": "Random",
+}]

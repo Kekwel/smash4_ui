@@ -6,34 +6,32 @@
     src: url('../fonts/dfgothic-su-wing-rksj-h-webfont.ttf') format('truetype');
 }
 
-#roaster {
-    display: flex;
-    width: 75%;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: center;
+.row {
+    white-space: nowrap;
+    text-align: center;
 }
 
 .perso {
-    flex-grow: 1;
-    width: 200px;
-    max-width: 200px;
-    height: 130px;
+    display: inline-block;
     border: 1px solid green;
 }
 
-.perso img {
-    display: block;
-    margin: 0;
+.image-perso, .name {
+    width: 8vw;
 }
 
-.perso .name {
+.image-perso {
+    display: block;
+}
+
+.name {
+    font-size: 1vw;
     background: black;
     font-family: 'dfggothic-suregular';
     text-transform: uppercase;
     color: white;
     margin: 0;
-    font-size: 20px;
+    /* font-size: 10px; */
     color: white;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     text-align: center;

@@ -1,0 +1,11 @@
+rows = {
+    0: ["Mario", "Luigi", "Peach", "Bowser", "Yoshi", "Harmonie & Luma", "Bowser Jr.", "Wario", "Donkey Kong", "Diddy Kong", "Mr. Game & Watch", "Little Mac"],
+
+    1: ["Link", "Zelda", "Sheik", "Ganondorf", "Link Cartoon", "Samus", "Samus sans armure", "Pit", "Palutena", "Marth", "Ike", "Darren"],
+
+    2: ["Duo Duck Hunt", "Kirby", "Roi Dadidou", "Meta Knight", "Fox", "Falco", "Pikachu", "Dracaufeu", "Lucario", "Rondoudou", "Amphinobi"],
+
+    3: ["R.O.B.", "Ness", "Captain Falcon", "Villageois", "Olimar", "Wii Fit Trainer", "Shulk", "Dr. Mario", "Dark Pit", "Lucina", "PAC-MAN"],
+
+    4: ["Mega man", "Sonic", "Mewtwo", "Lucas", "Roy", "Ryu", "Cloud", "Corrin", "Bayonetta", "Mii", "Random"]
+}

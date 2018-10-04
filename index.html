@@ -5,10 +5,15 @@
     <meta charset="utf-8">
     <title>Test Roaster</title>
 
-    <link rel="stylesheet" href="css/character.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.5.1/croppie.min.js"></script>
+
+    <link rel="stylesheet" href="css/add_perso.css">
+    <link rel="stylesheet" href="css/character.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.5.1/croppie.min.css" />
+
     <script type="text/javascript" src="json/roaster.json"></script>
+    <script type="text/javascript" src="json/roster_rows.json"></script>
     <script src="js/init.js"></script>
 </head>
 
@@ -16,12 +21,28 @@
     <!-- TODO: css -->
     <!-- TODO: générer colonne via fichier ? -->
     <!-- TODO: utiliser https://foliotek.github.io/Croppie/ pour choisir image ! -> plus rapide que passer par gimp ? -->
+    <!--
+    <div id="add_perso">
+<div id="crop-perso"></div>
+<div id="layout_btn_add">
+    <input id="perso_name" type="text">
+    <input type="file" id="upload" value="Choose a file" accept="image/*">
+    <button id="upload_result">Result</button>
+    <button type="button" id="valide_perso">OK</button>
+</div>
+<div id="tmp_div" class="perso">
+    <img id="tmp_upload">
+    <p id="tmp_name" class="name"></p>
+</div>
+</div>
+-->
+
     <div id="main">
         <div id="menu-top">
             Smash
         </div>
 
-        <div id="roaster"></div>
+        <div id="roster"></div>
         <div id="player"></div>
     </div>
 </body>
