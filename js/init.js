@@ -43,7 +43,8 @@ function generateDivPerso(perso) {
     // divPerso += '<img class="moving-bg" src="img/fond_css.png"></img>';
     divPerso += '<img class="image-perso" src="img/perso/' + perso.replace(/\s+/g, '_').toLowerCase() + '.png' + '" alt="' + perso + '">';
     // divPerso += '<div class="black-box"><span class="name">' + perso + '</span></div>';
-    divPerso += '<p class="name">' + perso + '</p>';
+    divPerso += '<div class="name">' + perso + '</div>';
+    // divPerso += '<div class="name"><span class="black-border">' + perso + '</span></div>';
     return divPerso + '</div>'
 }
 

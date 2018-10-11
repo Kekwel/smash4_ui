@@ -53,13 +53,12 @@ body {
 }
 
 .name {
-    font-size: 1vw;
-    background: #292929;
-    font-family: 'dfggothic-suregular';
+    background: linear-gradient(180deg, transparent 50%, #292929 50%);
     text-transform: uppercase;
-    margin: -5px 0 0 0;
-    /* font-size: 10px; */
+    margin: -10px 0 0 0;
     color: white;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-family: 'dfggothic-suregular';
+    font-size: 1vw;
+    text-shadow: -2px -2px 0 #292929, 2px -2px 0 #292929, -2px 2px 0 #292929, 2px 2px 0 #292929;
     text-align: center;
 }
