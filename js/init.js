@@ -40,7 +40,9 @@ function initPerso() {
 }*/
 function generateDivPerso(perso) {
     var divPerso = '<div class="perso">';
+    // divPerso += '<img class="moving-bg" src="img/fond_css.png"></img>';
     divPerso += '<img class="image-perso" src="img/perso/' + perso.replace(/\s+/g, '_').toLowerCase() + '.png' + '" alt="' + perso + '">';
+    // divPerso += '<div class="black-box"><span class="name">' + perso + '</span></div>';
     divPerso += '<p class="name">' + perso + '</p>';
     return divPerso + '</div>'
 }
@@ -109,9 +111,11 @@ function test1() {
 function initRows() {
     $.each(rows, function(i, row) {
         var divRow = $('<div id="row' + i + '" class="row">')
+        divRow.append('<div class="black-bar"></div>');
         $.each(row, function(j, perso) {
             divRow.append(generateDivPerso(perso));
         });
+        divRow.append('<div class="black-bar"></div>');
         $('#roster').append(divRow);
     });
 }

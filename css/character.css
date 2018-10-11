@@ -6,31 +6,58 @@
     src: url('../fonts/dfgothic-su-wing-rksj-h-webfont.ttf') format('truetype');
 }
 
+@keyframes move_background {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -75% 0;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+#roster {
+    width: 100%;
+    display: inline-block;
+    background-image: url('../img/fond_css.png');
+    background-size: contain;
+    animation: move_background 5s linear infinite;
+}
+
 .row {
+    display: flex;
+    justify-content: center;
     white-space: nowrap;
     text-align: center;
 }
 
-.perso {
-    display: inline-block;
-    border: 1px solid green;
+.black-bar {
+    width: 100%;
+    background-color: #292929;
 }
 
-.image-perso, .name {
-    width: 8vw;
+.perso {
+    display: inline-block;
+    border: 2px solid #292929;
 }
 
 .image-perso {
     display: block;
 }
 
+.image-perso, .name {
+    width: 7vw;
+}
+
 .name {
     font-size: 1vw;
-    background: black;
+    background: #292929;
     font-family: 'dfggothic-suregular';
     text-transform: uppercase;
-    color: white;
-    margin: 0;
+    margin: -5px 0 0 0;
     /* font-size: 10px; */
     color: white;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
